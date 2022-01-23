@@ -1,0 +1,29 @@
+.innerSlide{
+    display: flex;
+    justify-content: space-around;
+}
+.each-slide{
+    background-color: white;
+    padding: 20px;
+    margin: 0px 20px;
+}
+.slideHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:20px;
+    font-size: 21px;
+    margin: 0px 20px;
+    padding: 10px;
+}
+.slide-container{
+    background-color: white;
+    margin: 0px 16px;
+}
+.slideHeader a{
+    font-size: 14px;
+    color: #317a8d;
+}
+.slideHeader a:hover{
+    color: rgb(64, 67, 224);
+}
